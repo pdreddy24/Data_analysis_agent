@@ -1,0 +1,11 @@
+transaction_id,product_category,region,units_sold,revenue_usd
+T001,Electronics,North America,12,24000
+T002,Apparel,Europe,45,6750
+T003,Home Appliances,Asia,8,16000
+T004,Electronics,Europe,5,10000
+T005,Furniture,North America,3,9000
+T006,Apparel,Asia,60,7200
+T007,Electronics,South America,7,14000
+T008,Furniture,Europe,4,12000
+T009,Home Appliances,North America,6,15000
+T010,Apparel,Africa,30,4500

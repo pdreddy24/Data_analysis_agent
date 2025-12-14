@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# venv
+venv/
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Env / secrets
+.env
+
+# Outputs / artifacts
+outputs/
+*.png
+*.jpg
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
