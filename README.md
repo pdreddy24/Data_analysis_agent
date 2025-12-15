@@ -20,7 +20,7 @@ Under the hood, it uses a **Planner → Router → Executor** architecture orche
   - **Plan (AnalysisPlan JSON)**
   - **Confidence score**
   - **Explanation of what was executed**
-  - **Artifacts** (`result_df` / `fig` / `schema`)
+  - **Artifacts** 
   - **Fail-safe errors** (no Streamlit crashes)
 
 ---
@@ -59,9 +59,7 @@ This is a deterministic “analytics copilot” agent with clear responsibilitie
 
 High-level pipeline:
 
-> Add your LangGraph flow image here (recommended).
-> Example:
-> `> `<img width="565" height="1017" alt="image" src="https://github.com/user-attachments/assets/0dec07ea-9f14-47ce-8330-4e57aba1a0a3" />`
+> <img width="565" height="1017" alt="image" src="https://github.com/user-attachments/assets/0dec07ea-9f14-47ce-8330-4e57aba1a0a3" />`
 
 ---
 
@@ -80,7 +78,7 @@ High-level pipeline:
 - **TypedDict / typing** — strongly-typed agent state
 
 ### Visualization
-- **Matplotlib** — charts returned to the UI (`fig`)
+- **Matplotlib** — charts returned to the UI 
 
 ### Supporting Tools
 - **Regex (`re`)** — intent detection + column matching
@@ -124,9 +122,9 @@ without repeating the full context.
 
 ---
 
-## Capabilities (What the Agent Can Do)
+## Capabilities 
 
-### 1) Schema Preview (on upload)
+### 1) Schema Preview 
 Returns:
 - columns, dtypes
 - row count
@@ -134,7 +132,7 @@ Returns:
 - unique counts
 - sample rows
 
-### 2) Data Quality / Audit (`task_type="data_quality"`)
+### 2) Data Quality 
 Example questions:
 - “Any missing values?”
 - “Any duplicates?”
@@ -173,8 +171,6 @@ Example questions:
 ---
 
 ## Project Structure
-
-`
 
 Typical layout:
 ```text
