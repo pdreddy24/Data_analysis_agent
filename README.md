@@ -55,6 +55,7 @@ Users can **ask questions in natural language and receive analytical outputs wit
 ---
 
 # 🏗️ System Architecture
+<img width="978" height="1818" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/1bc7267b-ae1e-4740-81c5-f96e6bd8a268" />
 
 ```
 User Query
